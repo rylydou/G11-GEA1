@@ -10,8 +10,8 @@ Language: **Python 3.10+**. Libraries: matplotlib, pandas, pytest.
 | File | What | Owner |
 |---|---|---|
 | `jobs.py` | `Job` type, overlap check, CSV reader | shared |
-| `generate.py` | random test data (sparse / dense / varied / clustered) | group session |
-| `algorithms/` | one file per algorithm, plus `brute_force.py` (the exact solver) | group session |
+| `generate.py` | random test data (sparse / dense / varied / clustered) | shared |
+| `algorithms/` | one file per algorithm, plus `brute_force.py` (the exact solver) | shared |
 | `run.py` | runs every algorithm on generated data, saves results, prints summary | shared |
 | `test_algorithms.py` | required sanity tests + correctness checks | shared |
 | `counterexamples.py` | Part 3: counterexample search + timeline | P1 |
