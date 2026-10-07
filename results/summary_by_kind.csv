@@ -1,0 +1,17 @@
+kind,algorithm,instances,pct_optimal,mean_ratio,worst_ratio,worst_instance
+sparse,earliest_finish,50,100.0,1.0,1.0,0
+sparse,earliest_start,50,96.0,0.991,0.667,36
+sparse,group_heuristic,50,100.0,1.0,1.0,0
+sparse,shortest_duration,50,100.0,1.0,1.0,0
+dense,earliest_finish,50,100.0,1.0,1.0,50
+dense,earliest_start,50,68.0,0.903,0.5,68
+dense,group_heuristic,50,100.0,1.0,1.0,50
+dense,shortest_duration,50,98.0,0.995,0.75,64
+varied,earliest_finish,50,100.0,1.0,1.0,100
+varied,earliest_start,50,40.0,0.785,0.333,119
+varied,group_heuristic,50,100.0,1.0,1.0,100
+varied,shortest_duration,50,100.0,1.0,1.0,100
+clustered,earliest_finish,50,100.0,1.0,1.0,150
+clustered,earliest_start,50,68.0,0.908,0.5,199
+clustered,group_heuristic,50,100.0,1.0,1.0,150
+clustered,shortest_duration,50,100.0,1.0,1.0,150

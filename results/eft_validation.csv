@@ -1,0 +1,6 @@
+kind,tested,matched,match_rate
+sparse,50,50,100.0
+dense,50,50,100.0
+varied,50,50,100.0
+clustered,50,50,100.0
+all,200,200,100.0
