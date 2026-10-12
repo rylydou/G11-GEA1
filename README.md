@@ -14,10 +14,10 @@ Language: **Python 3.10+**. Libraries: matplotlib, pandas, pytest.
 | `algorithms/` | one file per algorithm, plus `brute_force.py` (the exact solver) | shared |
 | `run.py` | runs every algorithm on generated data, saves results, prints summary | shared |
 | `test_algorithms.py` | required sanity tests + correctness checks | shared |
-| `counterexamples.py` | Part 3: counterexample search + timeline | P1 |
-| `analysis.py` | Parts 4–5: validation + comparison tables/charts | P2 |
-| `runtime.py` | Part 6: runtime benchmark | P3 |
-| `results/` | every generated CSV, JSON and PNG | — |
+| `counterexamples.py` | Part 3: counterexample search + timeline | Solomon |
+| `analysis.py` | Parts 4-5: validation + comparison tables/charts | Ryly |
+| `runtime.py` | Part 6: runtime benchmark | Micky |
+| `results/` | every generated CSV, JSON and PNG | - |
 
 ## Setup
 
@@ -39,6 +39,15 @@ python runtime.py            # Part 6
 
 Running those commands in that order reproduces every result. All randomness is seeded
 (`SEED = 4050` in `run.py`), so the output is the same every time.
+
+## Output files
+
+| Script | Produces |
+|---|---|
+| `run.py` | `results/results.csv` -- every algorithm's output on 200 generated instances |
+| `counterexamples.py` | `results/counterexamples.json`, `results/counterexample_<algorithm>.png` |
+| `analysis.py` | `results/eft_validation.csv`, `results/summary.csv`, `results/summary_by_kind.csv`, `results/comparison.png` |
+| `runtime.py` | `results/runtime.csv`, `results/runtime.png` |
 
 ## Input format
 
