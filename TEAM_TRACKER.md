@@ -61,10 +61,10 @@ We are given jobs with start and finish times and must pick the most jobs that d
 
 **P3: Runtime**
 
-- [ ] Timings at n = 100, 1,000, 10,000, 100,000 (median of repeated runs)
-- [ ] Time sorting alone, to show where the sort cost appears
-- [ ] Log-log runtime plot
-- [ ] Write report Section 7
+- [x] Timings at n = 100, 1,000, 10,000, 100,000 (median of repeated runs)
+- [x] Time sorting alone, to show where the sort cost appears
+- [x] Log-log runtime plot
+- [x] Write report Section 7
 - [ ] Review P2's code
 
 **P4: Report + final check**
@@ -99,7 +99,7 @@ We are given jobs with start and finish times and must pick the most jobs that d
 | Counterexample search; full details for each; at least one timeline; "proof vs. no counterexample" discussion | 20 | `counterexamples.py` + report §4 | ☐ |
 | Earliest Finish validated on at least 100 instances of several kinds; matched / tested reported | 15 | `run.py`, `analysis.py` + report §5 | ☐ |
 | Comparison: % optimal, average ratio, worst instance, table or graph, discussion | 10 | `analysis.py` + report §6 | ☐ |
-| Runtime at increasing n, median of repeats, sorting explained, no overclaiming | 10 | `runtime.py` + report §7 | ☐ |
+| Runtime at increasing n, median of repeats, sorting explained, no overclaiming | 10 | `runtime.py` + report §7 | ☑ |
 | Reflection: all four questions, with real analysis | 5 | report §8 | ☐ |
 | Two required sanity tests pass | — | `test_algorithms.py` | ☐ |
 | README: language/version, how to run, input format, how to reproduce | — | `README.md` | ☐ |
